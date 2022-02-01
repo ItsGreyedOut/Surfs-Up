@@ -14,27 +14,11 @@ I used Python and SQLAlchemy to do basic climate analysis and data exploration o
 
 ### Station Analysis
 
-    ![station-histogram](Images/station-histogram.png)
-
-### Temperature Analysis I
-
-* Hawaii is reputed to enjoy mild weather all year. Is there a meaningful difference between the temperature in, for example, June and December?
-
-* Use pandas to perform this portion.
-
-  * Convert the date column format from string to datetime.
-
-  * Set the date column as the DataFrame index
-
-  * Drop the date column
-
-* Identify the average temperature in June at all stations across all available years in the dataset. Do the same for December temperature.
-
-* Use the t-test to determine whether the difference in the means, if any, is statistically significant. Will you use a paired t-test, or an unpaired t-test? Why?
+  ![station-histogram](Images/station-histogram.png)
 
 ### Temperature Analysis II
 
-    ![temperature](Images/temperature.png)
+  ![temperature](Images/temperature.png)
 
 ### Daily Temperature Normals
 
